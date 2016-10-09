@@ -20,6 +20,16 @@ body{
   background-color: #FFF;
 }
 
+.annotate{
+  display: block;
+  background-color: $light-font-color;
+  color: $second-font-color;
+  font-family: Hind;
+  padding: 6px;
+  text-align: center;
+  border-radius: 5px;
+  margin-top: 50px;
+}
 
 
 .main-container{
