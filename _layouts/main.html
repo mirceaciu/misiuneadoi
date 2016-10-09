@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{title}}</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="assets/swiper/css/swiper.min.css">
+
+    <!-- Add jQuery library -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script> -->
+    <!-- Add mousewheel plugin (this is optional) -->
+
+  </head>
+  <body>
+
+    {% include head.html %}
+    <div class="main-container">
+      {{ content }}
+    </div>
+
+    <script src="assets/swiper/js/swiper.min.js"></script>
+    <script type="text/javascript" src="assets/js/functions.js"></script>
+
+    <script>
+      var mySwiper = new Swiper ('.swiper-container', {
+        // Optional parameters
+        direction: 'vertical',
+        loop: false,
+
+        // If we need pagination
+        // pagination: '.swiper-pagination',
+
+        // Navigation arrows
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+
+        // And if we need scrollbar
+        // scrollbar: '.swiper-scrollbar',
+      })
+      </script>
+
+  </body>
+</html>

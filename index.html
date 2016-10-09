@@ -1,23 +1,63 @@
 ---
-layout: default
+layout: main
 ---
 
 <div class="home">
 
-  <h1 class="page-heading">Posts</h1>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
-        </h2>
-      </li>
+  <div class="front-post">
+    {% for post in site.posts limit:1 %}
+      <h2>
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
+      </h2>
+      <span class="post-meta">| {{ post.date | date: "%b %-d, %Y" }}</span>
+      <p>
+        {{ post.excerpt }}
+      </p>
     {% endfor %}
-  </ul>
+  </div>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+  <div class="post-list">
+
+    <div class="display swiper-container">
+      <div class="swiper-wrapper">
+
+        <div class="post-block swiper-slide">
+          {% for post in site.posts offset:1 limit:4 %}
+          <div class="post-excerpt">
+            <h2>{{ post.title | escape }}</h2>
+            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+            <p>
+              {{post.excerpt | truncatewords: 15}}
+            </p>
+          </div>
+          {% endfor %}
+        </div>
+
+        <div class="post-block swiper-slide">
+          {% for post in site.posts offset:5 limit:4 %}
+          <div class="post-excerpt">
+            <h2>{{ post.title | escape }}</h2>
+            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+            <p>
+              {{post.excerpt | truncatewords: 15}}
+            </p>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+
+
+
+    </div>
+
+    <div class="controls">
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div>
+
+  </div>
+
+<!-- <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p> -->
 
 </div>
