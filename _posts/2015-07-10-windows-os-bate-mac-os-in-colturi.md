@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "window"
+title:  "WindowsOs bate MacOS in colturi"
 date:   2016-10-04 11:27:56 -0700
 categories: jekyll update
 ---

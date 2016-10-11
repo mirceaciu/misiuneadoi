@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "baia"
+title:  "Era mobila in baia mea"
 date:   2016-10-04 11:27:56 -0700
 categories: jekyll update
 ---

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: main
 title:  "A fi original"
 date:   2016-10-04 11:27:56 -0700
 categories: jekyll update
@@ -35,7 +35,7 @@ Pentru această speță există nenumărate exemple: se merge pe sistemul _”da
 
 Privești un asemenea logo:
 
-<img class="post-image" src="/assets/img/post/original/org-3.jpg" alt="BWPositiveLogo"/>
+<img src="assets/img/post/original/org-3.jpg" alt="BWPositiveLogo"/>
 
 Lipsit de culori, un blob negru și un text. Cât poate să coste? Logo-ul în temă a costat [$280.000][2]. Un copil de 5 ani poate crea așa ceva într-un editor grafic de bază, nu-i așa? Furt pe față! Ei bine, o parte din sumă este alocată cercetării; designul este creat pentru a transmite un mesaj: litera B simbolizează denumirea orașului Belfast, are forma unei inimi și face referință către urarea “Bine ai venit!”. În procesul de cercetare sunt analizate numeroase probleme: în ce medii va fi distribuit logo-ul, face față pieței contemporane, este un design sugestiv și pregătit pentru viitor, aduce injurii vreunei minorități etnice, poate fi adaptat la nevoie pentru, de exemplu, o ocazie festivă? În nici un caz problemele acestea nu se rezolvă cu [5$][3].
 

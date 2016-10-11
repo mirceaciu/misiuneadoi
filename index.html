@@ -24,7 +24,7 @@ layout: main
         <div class="post-block swiper-slide">
           {% for post in site.posts offset:1 limit:4 %}
           <div class="post-excerpt">
-            <h2>{{ post.title | escape }}</h2>
+            <a href="{{ post.url | prepend: site.baseurl }}"><h2>{{ post.title | escape }}</h2></a>
             <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
             <p>
               {{post.excerpt | truncatewords: 15}}
@@ -36,7 +36,7 @@ layout: main
         <div class="post-block swiper-slide">
           {% for post in site.posts offset:5 limit:4 %}
           <div class="post-excerpt">
-            <h2>{{ post.title | escape }}</h2>
+            <a href="{{ post.url | prepend: site.baseurl }}"><h2>{{ post.title | escape }}</h2></a>
             <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
             <p>
               {{post.excerpt | truncatewords: 15}}
