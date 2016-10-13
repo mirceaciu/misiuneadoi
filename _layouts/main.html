@@ -4,9 +4,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{title}}</title>
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="assets/swiper/css/swiper.min.css">
 
+    <link rel="stylesheet" href="assets/swiper/css/swiper.min.css">
+    <link rel="stylesheet" href="css/main.css">
     <!-- Add jQuery library -->
     <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script> -->
     <!-- Add mousewheel plugin (this is optional) -->
@@ -25,11 +25,11 @@
     <script>
       var mySwiper = new Swiper ('.swiper-container', {
         // Optional parameters
-        direction: 'vertical',
+        direction: 'horizontal',
+        // direction: 'vertical',
         loop: false,
-
-        // If we need pagination
-        // pagination: '.swiper-pagination',
+        pagination: '.swiper-pagination',
+        paginationType: 'progress',
 
         // Navigation arrows
         nextButton: '.swiper-button-next',
