@@ -1,8 +1,11 @@
 ---
 layout: post
-title:  "SMIL si harta web"
-date:   2016-10-04 11:27:56 -0700
-categories: jekyll update
+title: SMIL și hărțile web
+#permalink: /2015/02/cand-facebook-ucide/
+categories: Blog
+tag: blog
+meta: 'SMIL poate fi folosit pentru animații în hărți web, dar e învechit'
+
 ---
 Hărțile devin din ce în ce mai accesibile iar din ce în ce mai multe servicii oferă utilizatorilor non-[gis][8]-iști posibilitatea de a crea și de a publica o hartă. Mai mult decât atât hărțile au devenit dinamice și interactive făcând uz pe cât posibil de capacitățile browserelor și inovațiile din limbaje web precum javascript. Ba chiar hărțile adoptă și metode [responsive][1] afișând date în funcție de nivelul de zoom sau mărimea containter-ului în care sunt incluse. Un lucru minunat în ecuația responsive îl reprezintă imaginile în format __.svg__ deoarece acestea oferă autorului certitudinea unor randări impecabile indiferent de dimensiunile cerute de utilizator.
 <!--more-->
@@ -11,7 +14,7 @@ Hărțile devin din ce în ce mai accesibile iar din ce în ce mai multe servici
 
 In domeniul hărților interactive aceste formate pot fi utilizate pentru markere precum cel din imaginea următoare:
 
-<img class="post-image" src="/assets/img/post/smil-si-harta/map-marker-128.png" alt="map-marker"/>
+<img class="post-image" src="{{ site.baseurl }}/assets/img/post/smil-si-harta/map-marker-128.png" alt="map-marker"/>
 
 
 Avantaje: rezoluție impecabilă pentru orice dimensiune, posibilitatea costumizări în editoare grafice precum InkScape, fundal transparent și __animație__. Un mare bonus al imaginilor svg este acela că ele pot fi animate, nu doar rotite sau redimensionate precum o imagine .png, ci animații în întregul sens al cuvântului.
@@ -24,7 +27,7 @@ Animațiile complexe sunt posibile datorită modului în care un svg este creat.
 
 Fiecare layer din Illustrator (capul, barba, ochii, gura, sprâncenele) sunt salvate în svg sub linii de cod diferite, grupate în taguri cu id-uri reprezentative.
 
-{% highlight text linenos=table %}
+{% highlight xml linenos %}
 <g id="eyes">
         <circle id="XMLID_21_" class="st2" cx="64" cy="116.1" r="6.3"/>
         <circle id="XMLID_17_" class="st2" cx="97.9" cy="116.1" r="6.3"/>
@@ -42,11 +45,11 @@ Dar există o soluție. Se poate ca fișierul svg să fie animat nativ, inline, 
 
 Cu SMIL putem scrie cod direct în fișierul svg, utilizând un nou tag : __&lt;animate&gt;__. Pentru a folosi SMIL trebuie să facem mici modificări în codul svg. Tag-urile în mod normal sunt auto-inchise  dar &lt;animate&gt; cere să fie inclus între tagurile de deschidere și de închidere ale elementului pe care dorim să-l animăm. Cu alte cuvinte:
 
-{% highlight text %}
+{% highlight xml linenos %}
 <circle id="XMLID_70_" class="st1" cx="64" cy="121.1" r="6.6"/>
 {% endhighlight %}
 devine
-{% highlight text %}
+{% highlight xml linenos %}
 <circle id="XMLID_70_" class="st1" cx="64" cy="121.1" r="6.6"> <animate> </circle>
 {% endhighlight %}
 
@@ -55,7 +58,7 @@ Dezavantaje: nu este la fel de flexibil precum GreenSock, este considerat învec
 
 Cu toate acestea încă funcționează. Cu ajutorul lui putem anima proprietăți ale elementului cu ajutorul unui "from-to". În exemplul anterior cx reprezintă poziția cercului pe axa X a paginii (relativ view-box-ului svg) . Cu SMIL putem modifica acea poziție
 
-{% highlight text linenos=table %}
+{% highlight xml linenos %}
 <circle id="XMLID_70_" class="st1" cx="64" cy="121.1" r="6.6">
 <animate attributeName="cx" from="64" to="100" dur="5s" repeatCount="indefinite" />
 </circle>

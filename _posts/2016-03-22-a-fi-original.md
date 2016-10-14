@@ -1,8 +1,12 @@
 ---
-layout: main
-title:  "A fi original"
-date:   2016-10-04 11:27:56 -0700
-categories: jekyll update
+layout: post
+title: A fi original
+#permalink: /2015/02/cand-facebook-ucide/
+categories: Blog
+tag: blog
+meta: 'Ce faci când trebuie să creezi un produs original?'
+featured-image: <img class="featured-image" src="{{ site.baseurl }}/assets/img/post/cand-facebook-ucide/cfu-cover.png" alt="pixel art facebook and youtube" />
+
 ---
 În timpul liber caut proiecte de web development unde mă pot implica ba cu o grafică, ba cu o line de cod. Este ceea ce îmi place să fac și este minunat că pot fi plătit pentru asta. Faptul că nu pot rezona mereu cu dorințele clientului nu este o problemă majoră ci doar o provocare în plus.
 
@@ -14,8 +18,8 @@ Oare la ce se referă clientul când cere un design original? Să fiu în locul 
 
 
 <blockquote>
-  <p>"Că doar daia dau un ban"</p>
-  <footer>Clientul</footer>
+  <p>Că doar daia dau un ban...</p>
+  <span>-Clientul</span>
 </blockquote>
 
 Dar nu sunt în locul lui, sunt în locul meu: creatorul, cel care trebuie să inoveze. Trebuie să mă gândesc, trebuie să clarific: ce vrea clientul defapt?
@@ -24,9 +28,9 @@ Dar nu sunt în locul lui, sunt în locul meu: creatorul, cel care trebuie să i
 
 Pentru această speță există nenumărate exemple: se merge pe sistemul _”dacă downloadez o poză și desenez pă ea un pixel se numește că acum ie opera mea”_. Se poate ca produsul inițial să fie modificat atât de mult încât el nu mai poate fi recunoscut în [creația finală][1] sau efortul depus întru modificare este minimal, caz în care se nasc opere precum:
 
-<img class="post-image" src="/assets/img/post/original/org-1.jpg" alt="adibas logo"/>
+<img class="post-image" src="{{ site.baseurl }}/assets/img/post/original/org-1.jpg" alt="adibas logo"/>
 
-<img class="post-image" src="/assets/img/post/original/org-2.jpg" alt="bindows logo"/>
+<img class="post-image" src="{{ site.baseurl }}/assets/img/post/original/org-2.jpg" alt="bindows logo"/>
 
 
 În multe cazuri scopul este acela de a profita de succesul produsului copiat, alteori designerul depune atâta efort cât a fost remunerat (am văzut și proiecte de design cu recompensă de 5$).
@@ -35,7 +39,7 @@ Pentru această speță există nenumărate exemple: se merge pe sistemul _”da
 
 Privești un asemenea logo:
 
-<img src="assets/img/post/original/org-3.jpg" alt="BWPositiveLogo"/>
+<img src="{{ site.baseurl }}/assets/img/post/original/org-3.jpg" alt="BWPositiveLogo"/>
 
 Lipsit de culori, un blob negru și un text. Cât poate să coste? Logo-ul în temă a costat [$280.000][2]. Un copil de 5 ani poate crea așa ceva într-un editor grafic de bază, nu-i așa? Furt pe față! Ei bine, o parte din sumă este alocată cercetării; designul este creat pentru a transmite un mesaj: litera B simbolizează denumirea orașului Belfast, are forma unei inimi și face referință către urarea “Bine ai venit!”. În procesul de cercetare sunt analizate numeroase probleme: în ce medii va fi distribuit logo-ul, face față pieței contemporane, este un design sugestiv și pregătit pentru viitor, aduce injurii vreunei minorități etnice, poate fi adaptat la nevoie pentru, de exemplu, o ocazie festivă? În nici un caz problemele acestea nu se rezolvă cu [5$][3].
 
@@ -43,7 +47,7 @@ Lipsit de culori, un blob negru și un text. Cât poate să coste? Logo-ul în t
 
 Ceva totuși îmi declanșa sentimentul de deja-vu, asta până am revăzut fostul logo Ubisoft.
 
-<img class="post-image" src="/assets/img/post/original/org-4.jpg" alt="ubisoft-vs-engie"/>
+<img class="post-image" src="{{ site.baseurl }}/assets/img/post/original/org-4.jpg" alt="ubisoft-vs-engie"/>
 
 Asemănarea este izbitoare și m-a făcut să mă întreb: ce s-ar fi întâmplat dacă un client ar fi cerut un design nou și original, ar fi alocat o sumă imensă proiectului dar ca rezultat ar fi primit ceva asemănător speţei GDF - Ubisoft. Poate clientul ar fi nemulțumit, ar refuza design-ul, ar bate din călcâie nervos, și-ar cere banii înapoi și poate ar da în judecată designerul pentru lipsă de interes... Orice e posibil.
 
@@ -55,7 +59,7 @@ Asemănarea este izbitoare și m-a făcut să mă întreb: ce s-ar fi întâmpla
 
 Poate că am înțeles greșit termenul original. Din punct de vedere legal două produse pot avea un brand asemănător sau aproape identic, dacă fac parte din două categorii separate de servicii:
 
-<img class="post-image" src="/assets/img/post/original/org-5.png" alt="sun-vs-columbia"/>
+<img class="post-image" src="{{ site.baseurl }}/assets/img/post/original/org-5.png" alt="sun-vs-columbia"/>
 
 Deși asemănătoare, astfel de exemple pot fi considerate originale. Nu au un aspect vizual unic, dar sunt în ton cu originea produsului! __Și ce dacă seamănă?__ Ele rezonează cu serviciul pe care îl reprezintă, transmițând prin stil și culori caracterul produsului şi spiritul producătorului. Dacă studiem "piața" pentru a găsi produse asemănătoare doar pentru a evita o imitație, nu cumva irosim timp privind în ograda altuia? Consider deci că este just să comasăm cele două termene, original şi origine, atunci când încercăm să definim identitatea produsului.
 

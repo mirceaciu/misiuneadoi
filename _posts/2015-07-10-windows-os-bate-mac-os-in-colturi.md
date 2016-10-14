@@ -1,14 +1,17 @@
 ---
 layout: post
-title:  "WindowsOs bate MacOS in colturi"
-date:   2016-10-04 11:27:56 -0700
-categories: jekyll update
+title: Windows OS bate Mac OS în colțuri.
+#permalink: /2015/07/windows-os-bate-mac-os-in-colturi/
+categories: Blog
+tag: blog
+meta: 'Lucruri aparent banale dar care ascund taine'
+featured-image: <img class="featured-image" src="{{ site.baseurl }}/assets/img/post/windows-os-bate-mac/wobm-1.png" alt="legea lui Fitts" />
 ---
 Deunăzi mă plimbam prin __partea aceea*__ a internetului și am descoperit o anume [lege a lui Fitts][1].
 
 Pe scurt: omul a analizat cum niște voluntari au dat click pe niște obiecte, apoi a scris o formulă. Oarecum această formulă oferă un indice al accesibilității unui obiect aflat pe ecranul calculatorului, bazându-se pe de lățimea acestuia și distanța pe care cursurul mouse-ului trebuie să o parcurgă pentru a ajunge la el.
 <!--more-->
-<img class="post-image" src="/assets/img/post/windows-os-bate-mac/wobm-1.png" alt="legea lui Fitts" />
+<img class="post-image" src="{{ site.baseurl }}/assets/img/post/windows-os-bate-mac/wobm-1.png" alt="legea lui Fitts" />
 
 Bizar studiu, însă formula oferă un rezultat interesant ce stă la baza unor decizii foarte importante de design.  
 
@@ -29,11 +32,11 @@ Varianta 2 este ușor de demonstrat: dacă ai mâna pe mouse apasă pe click-dre
 
 Un exemplu foarte popular este butonul de START al sistemului de operare Windows. Fiind poziționat fix în colțul ecranului mărimea lui devine practic infinită. Dacă un utilizator duce cursorul mouse-ului deasupra butonului START, atunci acesta va rămâne deasupra butonului indiferent de cât de mult este prelungită mișcarea prin care s-a ajuns în acest punct!
 
-<img class="post-image" src="/assets/img/post/windows-os-bate-mac/wobm-2.png" alt="legea lui Fitts" />
+<img class="post-image" src="{{ site.baseurl }}/assets/img/post/windows-os-bate-mac/wobm-2.png" alt="legea lui Fitts" />
 
 Multe sisteme fac uz de această schemă: privește colțurile, vei găsi funcționalități acolo! Acum să revin la teza titlului.
 
-<img class="post-image" src="/assets/img/post/windows-os-bate-mac/wobm-3.png" alt="legea lui Fitts" />
+<img class="post-image" src="{{ site.baseurl }}/assets/img/post/windows-os-bate-mac/wobm-3.png" alt="legea lui Fitts" />
 
 Fiecare sistem de operare are un buton de închidere a ferestrei. În cazul *Windows* butonul apărea lipit( sau foarte aproape) de colțul dreapta-sus al ecranului atunci când fereastra era la dimeniunea maximă, era deci infinit de mare și ca atare foarte accesibil. Cei de la *Apple* au ales să mute un pic butonul în interior căutând probabil un design mai ”zen”, dar făcând asta au detașat butonul de accesibilitatea colțului!
 
@@ -41,7 +44,7 @@ Tare m-am mirat când am aflat: Microsoft aveau un atuu față de Apple în ceea
 
 Observ că și Windows începe să îndepărteze butonul [X] de colțul ecranului, și asta nu e tocmai un lucru rău în contextul dezvoltării din ce în ce mai mult al pieței mobile (telefoane, tablete). Pentru aceste noi dispozitive colțul nu mai reprezintă un punct atât de accesibil pe cât este pe un sistem desktop. Dacă degetul utilizatorului (consider că astfel se interacționează cu dispozitivul) ajunge în colțul ecranului atunci acțiunea prin care s-a ajuns acolo **nu** mai poate fi continuată din motive fizice. Astfel infinitatea unui obiect aflat în colțul ecranului dispare, însă designerii au găsit un nou loc optim: laturile.
 
-<img class="post-image" src="/assets/img/post/windows-os-bate-mac/wobm-4.png" alt="legea lui Fitts" />
+<img class="post-image" src="{{ site.baseurl }}/assets/img/post/windows-os-bate-mac/wobm-4.png" alt="legea lui Fitts" />
 
 În cazul unui telefon sau al unei tablete laturile devin zonele cu accesibilitate optimă. Sistemul desktop oferă mărime infinită obiectelor din colțuri iar sistemele mobile oferă acces din oricare punct al laturii ecranului profitând la maxim de mărimea acestuia. (swipe-ul ce începe de pe o margine a ecranului poate îndeplini o altă funcție față de swipe-ul ce începe din centrul acestuia)
 

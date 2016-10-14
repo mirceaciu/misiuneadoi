@@ -1,8 +1,11 @@
 ---
 layout: post
-title:  "Era mobila in baia mea"
-date:   2016-10-04 11:27:56 -0700
-categories: jekyll update
+title: Era mobile îmi invadează baia.
+#permalink: /2015/10/era-mobile-imi-invadeaza-baia/
+categories: Blog
+tag: blog
+meta: 'Adaptat si nu prea'
+featured-image: <img class="featured-image" src="{{ site.baseurl }}/assets/img/post/android-baie/ab-1.png" alt="smart-phone"/>
 ---
 
 Baia. Locul acela tainic bănuit a fi leagănul gândurilor mărețe. Mulți recunoaștem că acolo, în acel loc intim, probleme ce ne presează subconștientul iși găsesc rapid rezolvarea. Uneori soluțiile apar brusc chiar și pentru probleme de care am uitat. Tot aici apar idei mărețe de afaceri, scenarii nemaiauzite și cele mai originale melodii.
@@ -12,7 +15,7 @@ Baia. Locul acela tainic bănuit a fi leagănul gândurilor mărețe. Mulți rec
 <!--more-->
 
 
-<img class="post-image" src="/assets/img/post/android-baie/ab-1.png" alt="smart-phone"/>
+<img class="post-image" src="{{ site.baseurl }}/assets/img/post/android-baie/ab-1.png" alt="smart-phone"/>
 
 Televizorul nu ne atrage așa cum se întâmplă în sufragerie. Internerul nu ne agăță așa cum se întâmplă în confortul dormitorului. În baie suntem noi și gândurile noastre. Mintea este o mașină extraordinară ce procesează continuu informațiile primite din mediul în care trăim. În momentul în care încetăm să o plictisim cu ecranenele noastre colorate sau problemele de la muncă ea începe să sape în subconștient de unde scoate tot felul de minuni.
 Din nefericire lucrurile încep să se schimbe iar baia, ca loc sacru al gândirii, este amenințată cu dispariția.

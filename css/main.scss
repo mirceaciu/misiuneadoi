@@ -20,6 +20,10 @@ body{
   background-color: #FFF;
 }
 
+a{
+  color: $font-accennt-color;
+}
+
 .annotate{
   display: block;
   background-color: $light-font-color;
@@ -44,6 +48,7 @@ body{
 @import "_reset";
 @import "_head";
 @import "_index";
-@import "_media_query";
+@import "_basic_post";
 
+@import "_media_query";
 @import "_swiper";

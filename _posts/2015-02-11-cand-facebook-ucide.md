@@ -1,15 +1,19 @@
 ---
 layout: post
-title:  "Cand facebook ucide"
-date:   2016-10-04 11:27:56 -0700
-categories: jekyll update
+title: Când Facebook ucide..
+author: Mircea Stanciu
+#permalink: /2015/02/cand-facebook-ucide/
+categories: Pagini
+tag: pagini
+meta: 'Facebook: poze si tag-uri pentru unii, crima pentru altii'
+featured-image: <img class="featured-image" src="{{ site.baseurl }}/assets/img/post/cand-facebook-ucide/cfu-cover.png" alt="pixel art facebook and youtube" />
 ---
 Pe Facebook au loc __crime__ (multe), iar noi (mulți) suntem complici.
 
 În joc sunt cariere, faimă, onoare, bani. Dacă ai un cont și ești activ pe această rețea de socializare atunci mai mult ca sigur și TU ești complice. Nu arăt cu degetul doar către Facebook, nici de cum! Mai sunt și alte rețele de socializare (să le zicem piețe negre) unde fenomenul este prezent, dar acestea pălesc în fața gigantului albastru.  
 <!--more-->
 
-<img class="post-image" src="/assets/img/post/cand-facebook-ucide/cfu-cover.png" alt="pixel art facebook and youtube" />
+<img class="post-image" src="{{ site.baseurl }}/assets/img/post/cand-facebook-ucide/cfu-cover.png" alt="pixel art facebook and youtube" />
 
 Acum nu te speria! nu zice nimeni că spargi conturi bancare sau faci trafic de date secretizate. Tu chiar nu faci nimic ilegal: mai te uiți la o poză, mai lași un like unui prieten, mai distribui un clip video care iți pare interesant&#8230; dastea. Te-ai gândit vreodată măcar un pic la acest sistem de distribuție a datelor? de unde vin ele? unde ajung? probabil nu..
 
@@ -36,7 +40,7 @@ Până acum o parte dintre voi ați înţeles deja fenomenul. Autorul muncește 
 
 Când autorul contactează Facebook să scoată copia de pe pagină pare că nimic nu se întâmplă, ba chiar agitația atrage mai multă atenție iar clipul ”piratat” adună mai multe vizualizări. Când în final se acționează Facebook doar scoate clipul și răspunde cu o notă simplă autorului , de forma : ”am înțeles problema și am eliminat videoclipul. ne pare rău”. Atât! nici o remunerație pentru vizualizările pierdute iar altele probabil nu vor mai fi deoarece interesul pentru clip a trecut.
 
-<img class="post-image" src="/assets/img/post/cand-facebook-ucide/cfu-1.png" alt="pixel art facebook and youtube" />
+<img class="post-image" src="{{ site.baseurl }}/assets/img/post/cand-facebook-ucide/cfu-1.png" alt="pixel art facebook and youtube" />
 
 ### Cu mâinile curate!
 
