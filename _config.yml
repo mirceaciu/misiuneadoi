@@ -24,7 +24,7 @@ github_username:  mirceaciu
 markdown: kramdown
 #baseurl: /misiunea-web
 repository: mirceaciu/misiuneadoi
-
+permalink: pretty
 #repository: henry/henrydf.github.io
 #repository: mirceaciu/misiuneadoi.github.io
 sass:
