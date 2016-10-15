@@ -9,11 +9,11 @@ featured-image: <img class="featured-image" src="/assets/img/post/primii-bani-ca
 ---
 Râvnim la gândul de a face ce ne place și de a fi plătiți pentru asta (nu cred că greșesc mult dacă generalizez afirmația). Șansele ca acest lucru să se întâmple sunt mari, însă și sacrificiile (timp, resurse, energie, nervi)  
 
-Zic șanse pentru că din moment ce există pasiune există și voința de a reuși, de a învăța lucruri noi, de a avansa. Pasiunea vine la pachet cu obsesia, iar obsesia ne ajută să evoluăm. Întocmai ca un drog ce cere __&#8220;Mai mult!&#8221;__ trebuie să hrănim pasiunea, adesea cu noi cunoștințe (știm mai multe = suntem mai buni).
+Din pasiune se naște voința de a reuși, de a învăța lucruri noi, de a avansa. Este întocmai unui drog ce cere __&#8220;Mai mult!&#8221;__ trebuie să hrănim dorința cu noi experinețe sau cunoștințe (știm mai multe = suntem mai buni).
 <!--more-->
 
 ### Ce am fost
-În ceea ce mă privește mi-am dat seama la un moment dat că aș putea să fac un ban în plus din design. Planul inițial era : stau două ore în fața computerului, desenez un logo și intru pe profit.  Dar cum era să fac un ban când desenam chestii de genu:
+În ceea ce mă privește mi-am dat seama la un moment dat că aș putea face un ban în plus din design. Planul inițial: stau două ore în fața computerului, desenez un logo și intru pe profit. Dar cum era să fac un ban când desenam chestii de genu:
 
 
 <img class="post-image" src="{{ site.baseurl }}/assets/img/post/primii-bani-castigati/pmc-1.jpg" alt="bad logo design"/>
@@ -27,12 +27,12 @@ Zic șanse pentru că din moment ce există pasiune există și voința de a reu
 <img class="post-image" src="{{ site.baseurl }}/assets/img/post/primii-bani-castigati/pmc-3.jpg" alt="bad logo design"/>
 <!-- *clădirea care se transformă în mână, pff* -->
 
-Nici nu știu de unde să încep să enumăr problemele cu astfel de lucrări. Pierdeam prea mult timp încercând să aduc cât mai multe idei și concepte în desen, când de fapt un logo trebuie să fie o reprezentare simplă și eficientă a mesajului. Apoi experiența îmi lipsea, aveam impresia că totuși fac treabă bună, ca atare aveam speranțe mari. Dar totul se năruia când potențialul client refuza fără să stea deloc pe gânduri, iar eu eram profund afectat .
+Nici nu știu de unde să încep să enumăr problemele cu astfel de lucrări. Pierdeam prea mult timp încercând să aduc cât mai multe idei și concepte în desen când de fapt un logo trebuie să fie o reprezentare simplă și eficientă a mesajului. Din lipsă de experiență aveam impresia că totuși fac treabă bună iar ca atare aveam speranțe mari. Dar totul se năruia când potențialul client refuza design-ul fără să stea deloc pe gânduri, iar eu eram profund dezamăgit .
 
-La momentul ăla nu înțelegeam de ce nu e acceptat designul meu, dar acum că privesc în urmă.. oh !
+La momentul acela nu înțelegeam de ce nu e acceptat designul meu, dar acum că privesc în urmă.. oh !
 
 ### Unde am ajuns
-Am insistat totuși.. au trecut luni până am primit recunoaștere pentru munca depusă. Încet dar sigur am învățat tehnici, bune practici și ,deși lipsit de talent artistic, am reușit să primesc laude sau chiar să vând grafice:
+Am insistat totuși.. au trecut luni până am primit recunoaștere pentru munca depusă. Încet dar sigur am învățat tehnici, bune practici și, deși lipsit de talent artistic, am reușit să primesc laude sau chiar să vând grafice:
 
 
 <img class="post-image" src="{{ site.baseurl }}/assets/img/post/primii-bani-castigati/pmc-4.png" alt="logo pentru cei mici" />

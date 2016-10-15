@@ -2,6 +2,10 @@
   .post-list .display {
     width: 100%;
   }
+
+  .controls{
+    display: none;
+  }
 }
 
 @media (max-width: 400px) {
