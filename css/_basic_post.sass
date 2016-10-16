@@ -1,22 +1,35 @@
+.post-header
+  background-color: #292A29
+  font-family: Hind
+  padding: 50px 0
+  border-bottom: 4px solid #cacaca
+  background-image: url('/assets/img/laLunaMin.svg')
+  background-size: 10%
+  background-position: 30% 59%
+  background-repeat: no-repeat
+  .title
+    font-size: 4em
+    font-weight: bold
+    color: #E7E8E9
+    text-align: center
+    text-shadow: -2px 0 #292A29, 0 2px #292A29, 2px 0 #292A29, 0 -2px #292A29
+  .post-meta
+    text-align: center
+    color: $second-font-color
+    font-size: 1em
+    line-height: 1.5em
+    text-shadow: -1px 0 #292A29, 0 1px #292A29, 1px 0 #292A29, 0 -1px #292A29
+
+
 .post-wrap
-  max-width: 900px
+  max-width: 800px
   margin: 75px auto 0 auto
   font-family: Hind
-
   .content
     width: 90%
     margin: 0 auto
-    .title
-      font-size: 4em
-      font-weight: bold
-      color: $strong-font-color
-      text-align: center
-    .post-meta
-      text-align: center
-      color: $second-font-color
-      font-size: 1em
     p
-      font-size: 1.4em
+      font-size: 1.2em
       line-height: 1.4em
       margin: 20px 0
       color: $strong-font-color
@@ -37,26 +50,46 @@
       margin: 0 auto
 
 blockquote
-  max-width: 300px
-  margin: 0 0 0 auto
-  padding: 4px
-  border-left: 3px solid darken($light-font-color, 10%)
+  padding: 4px 0px
+  border-left: 5px solid darken($light-font-color, 30%)
+  background-color: #f4f5f5
   color: darken($light-font-color, 30%)
+  font-family: Georgia
   p
     font-style: italic
+    padding-left: 10px
   span
     display: block
     width: 100%
-    text-align: right
+    margin-left: 20px
 
 .highlight
   background-color: #35313A
   color: #97C3C3
   padding: 5px 0px
   margin: 5px 0
+  overflow: scroll
   .code
     padding-left: 10px
   .lineno
     background: #2B869C
     padding: 6px
     text-align: center
+
+.post_nav
+  display: block
+  position: fixed
+  height: 30px
+  line-height: 30px
+  width: 100%
+  bottom: 0
+  background-color: #cacaca
+  color: white
+  a
+    display: inline-block
+    padding: 0 10px
+    color: #ffffff
+    font-family: Hind
+    border-right: 2px solid #bebebe
+    &:active
+      background-color: darken(#cacaca, 10%)

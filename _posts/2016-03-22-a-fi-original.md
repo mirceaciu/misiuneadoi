@@ -21,7 +21,7 @@ Oare la ce se referă clientul când cere un produs original? Să fiu în locul 
 
 <blockquote>
   <p>Că doar daia dau un ban...</p>
-  <span>-Clientul</span>
+  <span>Clientul</span>
 </blockquote>
 
 Dar nu sunt în locul lui, sunt în locul meu: creatorul, cel care trebuie să inoveze. Trebuie să mă gândesc, trebuie să clarific: ce vrea clientul de fapt?
