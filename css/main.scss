@@ -23,6 +23,14 @@ body{
 a{
   color: $font-accennt-color;
 }
+::-moz-selection {
+       background-color: $font-accennt-color;
+       color: #fff;
+}
+::selection {
+       background-color: $font-accennt-color;
+       color: #fff;
+}
 
 .annotate{
   display: block;
