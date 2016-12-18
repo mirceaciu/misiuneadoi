@@ -49,11 +49,11 @@ a{
   margin: 0 auto;
   font-style: italic;
   border-bottom: 1px solid gray;
-  border-left: 1px solid gray;
-  border-right: 1px solid gray;
+  // border-left: 1px solid gray;
+  // border-right: 1px solid gray;
   font-size: 0.8em;
   text-align: center;
-  height: 20px;
+  min-height: 20px;
   line-height: 20px
 }
 
