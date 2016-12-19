@@ -18,7 +18,7 @@ MD este un ghid-ul de stil folosit de Google pentru a menține un aspect [unifor
 
 Prin MD se transpun în UI și UX aspecte ale lumii organice/fizice. Sunt afectate atât aspectul vizual cât și modul în care un obiect se mișcă pe ecran astfel încât totul să pară natural și dinamic. Exemplul din video: un buton nu este strivit când este apăsat pe un ecran al unui dispozitiv mobil, el se aproprie de deget pentru a crea o legătură magnetică între utilizator și aplicație.
 
-MD este pubic și Google chiar încurajează designeri independeți să folosească acest ghid în propriile proiect, stabilind astfel un aspect uniform în interiorul PlayStore și un mare trend în afara acestuia.
+MD este pubic și Google chiar încurajează designeri independenți să folosească acest ghid în propriile proiect, stabilind astfel un aspect uniform în interiorul PlayStore și un mare trend în afara acestuia.
 
 <img class="post-image" src="{{ site.baseurl }}/assets/img/post/beat/gestib-1.png" alt="similar material design logos"/>
 
