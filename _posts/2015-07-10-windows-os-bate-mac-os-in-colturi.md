@@ -5,7 +5,7 @@ title: Windows OS bate Mac OS în colțuri.
 categories: Blog
 tag: blog
 meta: 'Lucruri aparent banale dar care ascund taine'
-featured-image: <img class="featured-image" src="{{ site.baseurl }}/assets/img/post/windows-os-bate-mac/wobm-1.png" alt="legea lui Fitts" />
+featured-image: "/assets/img/post/windows-os-bate-mac/wobm-1.png"
 ---
 Deunăzi mă plimbam prin __partea aceea*__ a internetului și am descoperit o anume [lege a lui Fitts][1].
 

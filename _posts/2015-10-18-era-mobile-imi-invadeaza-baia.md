@@ -5,7 +5,7 @@ title: Era mobile îmi invadează baia.
 categories: Blog
 tag: blog
 meta: 'Adaptat si nu prea'
-featured-image: <img class="featured-image" src="{{ site.baseurl }}/assets/img/post/android-baie/ab-1.png" alt="smart-phone"/>
+featured-image: "/assets/img/post/android-baie/ab-1.png"
 ---
 
 Baia. Locul acela tainic bănuit a fi leagănul gândurilor mărețe. Mulți recunoaștem că acolo, în acel loc intim, probleme ce ne presează subconștientul iși găsesc rapid rezolvarea. Uneori soluțiile apar brusc chiar și pentru probleme de care am uitat. Tot aici apar idei mărețe de afaceri, scenarii nemaiauzite și cele mai originale melodii.

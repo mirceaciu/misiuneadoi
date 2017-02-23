@@ -6,7 +6,7 @@ author: Mircea Stanciu
 categories: Pagini
 tag: pagini
 meta: 'Facebook: poze și tag-uri pentru unii, crimă pentru alții'
-featured-image: <img class="featured-image" src="{{ site.baseurl }}/assets/img/post/cand-facebook-ucide/cfu-cover.png" alt="pixel art facebook and youtube" />
+featured-image: "/assets/img/post/cand-facebook-ucide/cfu-cover.png"
 ---
 Pe Facebook au loc __crime__ iar noi suntem complici.
 
