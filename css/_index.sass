@@ -1,6 +1,6 @@
 .front-post
   padding: 20px 15px
-  margin-top: 50px
+  margin: 50px 0px 70px 0
   -webkit-box-shadow: 0px 10px 33px -12px rgba(0,0,0,0.15)
   -moz-box-shadow: 0px 10px 33px -12px rgba(0,0,0,0.15)
   box-shadow: 0px 10px 33px -12px rgba(0,0,0,0.15)
@@ -17,11 +17,16 @@
     color: $second-font-color
     padding: 6px 0 0 0
     line-height: 1.4em
-  span
+    margin: 20px 0
+
+  .front-post-label
     display: inline-block
     // margin-left: 25px //activate on mobile view
     color: $second-font-color
     border-left: 50px solid $light-font-color
+  .post-image
+    display: block
+    margin: 0 auto
   h2
     font-weight: bold
     font-size: $largest-font
@@ -38,7 +43,7 @@
 
   .display
     font-family: Hind
-    width: 60%
+    width: 45%
     .post-block
       display: flex
       flex-flow: row wrap
@@ -110,3 +115,25 @@
     font-weight: bold
     color: $light-font-color
     transform: rotate(-29deg)
+
+.read-all-btn
+  display: block
+  text-align: center
+  margin: 0 auto
+  text-decoration: none
+  width: 50px
+  height: 20px
+  line-height: 20pxs
+  padding: 2px 0
+  border-radius: 4px
+  color: white
+  font-weight: bold
+  background: $font-accennt-color
+
+
+.front-post-content p
+  &:nth-child(n+3)
+    display: none
+
+.front-post-content iframe
+  display: none

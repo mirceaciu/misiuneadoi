@@ -8,8 +8,11 @@ layout: main
       <h2>
         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
       </h2>
-      <span class="post-meta">| {{ post.date | date: "%b %-d, %Y" }}</span>
-        {{ post.excerpt }}
+      <span class="front-post-label">| {{ post.date | date: "%b %-d, %Y" }}</span>
+      <div class="front-post-content">
+        {{ post.content }}
+      </div>
+      <span class="read-all-btn"> &#x2C4; &#x2C5; </span>
     {% endfor %}
   </div>
 
