@@ -12,7 +12,8 @@ layout: main
       <div class="front-post-content">
         {{ post.content }}
       </div>
-      <span class="read-all-btn"> &#x2C4; &#x2C5; </span>
+      <span class="read-all-btn"> &#709; </span>
+      <span class="show-comments-btn"> <a href="{{ post.url | prepend: site.baseurl }}#disqus_thread">pareri?</a> </span>
     {% endfor %}
   </div>
 
@@ -25,6 +26,7 @@ layout: main
             <span class="post-meta label">{{ post.date | date: "%b %-d, %Y" }}</span>
             <br>
             {{post.excerpt | truncatewords: 15}}
+
           </div>
           {% endfor %}
       </div>

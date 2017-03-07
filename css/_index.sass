@@ -116,20 +116,42 @@
     color: $light-font-color
     transform: rotate(-29deg)
 
-.read-all-btn
+.read-all-btn, .show-comments-btn
   display: block
   text-align: center
   margin: 0 auto
   text-decoration: none
   width: 50px
   height: 20px
-  line-height: 20pxs
+  // line-height: 20px
   padding: 2px 0
   border-radius: 4px
   color: white
   font-weight: bold
   background: $font-accennt-color
 
+.show-comments-btn
+  display: none
+  width: 78px
+  a
+    color: white
+    text-decoration: none
+
+.go-visible
+  display: block
+
+.go-right
+  float: right
+  visibility: hidden
+  &:after
+    content: 'x'
+    visibility: visible
+    position: relative
+    display: block
+    background-color: $light-font-color
+    color: $strong-font-color
+    border-radius: 4px
+    top: -16px
 
 .front-post-content p
   &:nth-child(n+3)
