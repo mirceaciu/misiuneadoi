@@ -18,15 +18,17 @@ layout: main
   </div>
 
   <div class="post-list">
+
+    <h1>recente</h1>
+
     <div class="display swiper-container">
       <div class="swiper-wrapper">
           {% for post in site.posts offset:1 %}
           <div class="swiper-slide" style= "background-image:url({{ post.featured-image }}); background-size:cover">
-            <a href="{{ post.url | prepend: site.baseurl }}"><h2 class="swiper-title">{{ post.title | escape }}</h2></a>
+            <div class="post-title-card">
+              <a href="{{ post.url | prepend: site.baseurl }}"><h2 class="swiper-title">{{ post.title | escape }}</h2></a>
+            </div>
             <span class="post-meta label">{{ post.date | date: "%b %-d, %Y" }}</span>
-            <br>
-            {{post.excerpt | truncatewords: 15}}
-
           </div>
           {% endfor %}
       </div>

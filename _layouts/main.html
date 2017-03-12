@@ -15,12 +15,18 @@
     <script type="text/javascript" src="assets/js/functions.js"></script>
 
     <script>
+        var ww_init = $(window).width();
+        var slides_init = 0
+        if (ww_init>800) slides_init = 3;
+        if (ww_init>600 && ww_init<=800) slides_init = 2;
+        if (ww_init<=600) slides_init = 1;
+
       var mySwiper = new Swiper ('.swiper-container', {
         // Optional parameters
         direction: 'horizontal',
         // direction: 'vertical',
         loop: false,
-        slidesPerView: 1,
+        slidesPerView: slides_init,
         slidesPerColumn: 2,
         pagination: '.swiper-pagination',
         paginationType: 'progress',
@@ -33,6 +39,16 @@
         // And if we need scrollbar
         // scrollbar: '.swiper-scrollbar',
       })
+
+      $(window).resize(function(){
+        var ww = $(window).width()
+        if (ww>800) mySwiper.params.slidesPerView = 3;
+        if (ww>600 && ww<=800) mySwiper.params.slidesPerView = 2;
+        if (ww<=600) mySwiper.params.slidesPerView = 1;
+        // console.log(ww)
+      })
+      $(window).trigger('resize')
+
       </script>
 
   </body>

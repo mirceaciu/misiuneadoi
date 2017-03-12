@@ -1,12 +1,29 @@
-@media (max-width: 800px) {
+@media (min-width: 801px) {
   .post-list .display {
     width: 100%;
+    max-width: 900px;
   }
 
   .controls{
     display: none;
   }
+  .post-wrap .content p {
+    width: 100%;
+  }
 }
+
+@media (max-width: 800px) {
+  .post-list .display {
+    width: 100%;
+  }
+  .controls{
+    display: none;
+  }
+  .post-wrap .content p {
+    width: 100%;
+  }
+}
+
 
 @media (max-width: 400px) {
   .post-list .display .post-block .post-excerpt {
@@ -14,12 +31,12 @@
   }
 }
 
+
 @media (max-width: 300px) {
   .post-list .display .post-block .post-excerpt {
     width: 100%;
     height: 150px;
   }
-
   .swiper-container{
     height: 710px;
   }
