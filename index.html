@@ -24,7 +24,7 @@ layout: main
     <div class="display swiper-container">
       <div class="swiper-wrapper">
           {% for post in site.posts offset:1 %}
-          <div class="swiper-slide" style= "background-image:url({{ post.featured-image }}); background-size:cover">
+          <div class="swiper-slide" style= "background-image:url({{ post.featured-image }}); background-size:contain">
             <div class="post-title-card">
               <a href="{{ post.url | prepend: site.baseurl }}"><h2 class="swiper-title">{{ post.title | escape }}</h2></a>
             </div>
