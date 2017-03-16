@@ -88,13 +88,19 @@ blockquote
   line-height: 30px
   width: 100%
   bottom: 0
-  background-color: #cacaca
+  background-color: rgba(234, 234, 234, 0.89)
   color: white
   a
     display: inline-block
-    padding: 0 10px
+    padding: 0 36px
     color: #ffffff
     font-family: Hind
     border-right: 2px solid #bebebe
+    background: #2e9fff
+    text-decoration: none
+    font-weight: bold
     &:active
       background-color: darken(#cacaca, 10%)
+    &:after
+      display: block
+      border-top: 4px solid red
