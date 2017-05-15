@@ -6,6 +6,7 @@ categories: Blog
 tag: design
 meta: 'și da, se întâmplă și la case mai mari'
 featured-image: "/assets/img/post/beat/gestib-1.png"
+image-size: contain
 ---
 
 Îmi place Google și sunt convins că nu sunt mulți cei care îi doresc răul. A făcut multe pentru internet și lumea modernă; numai faptul că ține în viață platforma YouTube ,acea gaură imensă de bani, mi se pare uimitor.

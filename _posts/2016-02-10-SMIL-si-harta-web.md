@@ -6,7 +6,7 @@ categories: Blog
 tag: tutorial
 meta: 'SMIL poate fi folosit pentru animații în hărți web, dar e învechit'
 featured-image: "/assets/img/post/smil-si-harta/map-marker-128.png"
-
+image-size: contain
 ---
 Hărțile devin din ce în ce mai accesibile iar din ce în ce mai multe servicii oferă utilizatorilor non-[gis][8]-iști posibilitatea de a crea și de a publica o hartă. Mai mult decât atât hărțile au devenit dinamice și interactive făcând uz pe cât posibil de capacitățile browserelor și inovațiile din limbaje web precum javascript. Ba chiar hărțile adoptă și metode [responsive][1] afișând date în funcție de nivelul de zoom sau mărimea containter-ului în care sunt incluse. Un lucru minunat în ecuația responsive îl reprezintă imaginile în format __.svg__ deoarece acestea oferă autorului certitudinea unor randări impecabile indiferent de dimensiunile cerute de utilizator.
 <!--more-->

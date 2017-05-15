@@ -7,6 +7,7 @@ categories: Pagini
 tag: internet
 meta: 'Facebook: poze și tag-uri pentru unii, crimă pentru alții'
 featured-image: "/assets/img/post/cand-facebook-ucide/cfu-cover.png"
+image-size: contain
 ---
 Pe Facebook au loc __crime__ iar noi suntem complici.
 

@@ -6,6 +6,7 @@ categories: Blog
 tag: cariera
 meta: 'Privind in urma la ce am fost'
 featured-image: "/assets/img/post/primii-bani-castigati/pmc-8.png"
+image-size: contain
 ---
 Râvnim la gândul de a face ce ne place și de a fi plătiți pentru asta (nu cred că greșesc mult dacă generalizez afirmația). Șansele ca acest lucru să se întâmple sunt mari, însă și sacrificiile (timp, resurse, energie, nervi)  
 

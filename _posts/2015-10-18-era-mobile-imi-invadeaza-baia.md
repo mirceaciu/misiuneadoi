@@ -6,6 +6,7 @@ categories: Blog
 tag: internet
 meta: 'Adaptat si nu prea'
 featured-image: "/assets/img/post/android-baie/ab-1.png"
+image-size: contain
 ---
 
 Baia. Locul acela tainic bănuit a fi leagănul gândurilor mărețe. Mulți recunoaștem că acolo, în acel loc intim, probleme ce ne presează subconștientul iși găsesc rapid rezolvarea. Uneori soluțiile apar brusc chiar și pentru probleme de care am uitat. Tot aici apar idei mărețe de afaceri, scenarii nemaiauzite și cele mai originale melodii.
