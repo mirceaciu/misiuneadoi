@@ -3,7 +3,7 @@ layout: post
 title: Windows OS bate Mac OS în colțuri.
 #permalink: /2015/07/windows-os-bate-mac-os-in-colturi/
 categories: Blog
-tag: blog
+tag: design
 meta: 'Lucruri aparent banale dar care ascund taine'
 featured-image: "/assets/img/post/windows-os-bate-mac/wobm-1.png"
 ---

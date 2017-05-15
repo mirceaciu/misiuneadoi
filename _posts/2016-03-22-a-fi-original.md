@@ -3,7 +3,7 @@ layout: post
 title: A fi original
 #permalink: /2015/02/cand-facebook-ucide/
 categories: Blog
-tag: blog
+tag: design
 meta: 'Ce faci când trebuie să creezi un produs original?'
 featured-image: "/assets/img/post/cand-facebook-ucide/cfu-cover.png"
 

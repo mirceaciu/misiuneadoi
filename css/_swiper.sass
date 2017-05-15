@@ -18,11 +18,10 @@
   // text-align: center
   font-size: 18px
   background: #e4e4e4
-  height: 200px
+  height: 300px
   color: white
   // border-bottom: 2px solid rgba(35, 50, 53, 0.2)
   border: 4px solid white
-  padding: 6px
   opacity: 0.6
   background-repeat: no-repeat
   background-position: center
@@ -35,23 +34,36 @@
     background-repeat: no-repeat
     background-position: center
 
-  span
+  .post-meta
     display: inline-block
     background-color: rgba(181, 171, 171, 0.49)
     color: white
     position: absolute
     bottom: 5px
+    padding: 2px
+
+  .label-date
     left: 5px
 
-.post-title-card
-  position: absolute
-  z-index: 22
-  width: 90%
-  background-color: rgba(34, 161, 205, 0.88)
-  a
-    color: white
-    text-decoration: none
+  .label-tag
+    background-color: rgb(122, 198, 225)
+    left: 110px
+
+
 
 .swiper-title
   font-size: 25px
   padding: .3em
+
+.swiper-button-next
+  position: absolute
+
+.swiper-button-prev
+  position: initial
+
+.swiper-button-next, .swiper-button-prev
+
+  display: inline-block
+  width: 10%
+  height: 22px
+  background-size: contain

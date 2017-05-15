@@ -3,7 +3,7 @@ layout: post
 title: Era mobile îmi invadează baia.
 #permalink: /2015/10/era-mobile-imi-invadeaza-baia/
 categories: Blog
-tag: blog
+tag: internet
 meta: 'Adaptat si nu prea'
 featured-image: "/assets/img/post/android-baie/ab-1.png"
 ---

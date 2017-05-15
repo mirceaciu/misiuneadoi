@@ -4,7 +4,7 @@ title: Când Facebook ucide..
 author: Mircea Stanciu
 #permalink: /2015/02/cand-facebook-ucide/
 categories: Pagini
-tag: pagini
+tag: internet
 meta: 'Facebook: poze și tag-uri pentru unii, crimă pentru alții'
 featured-image: "/assets/img/post/cand-facebook-ucide/cfu-cover.png"
 ---

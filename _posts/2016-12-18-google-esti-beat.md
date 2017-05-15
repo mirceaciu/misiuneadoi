@@ -3,7 +3,7 @@ layout: post
 title: Google ești beat?
 #permalink: /2015/02/cand-facebook-ucide/
 categories: Blog
-tag: blog
+tag: design
 meta: 'și da, se întâmplă și la case mai mari'
 featured-image: "/assets/img/post/beat/gestib-1.png"
 ---

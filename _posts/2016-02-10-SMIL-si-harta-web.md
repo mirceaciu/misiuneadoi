@@ -3,7 +3,7 @@ layout: post
 title: SMIL și hărțile web
 #permalink: /2015/02/cand-facebook-ucide/
 categories: Blog
-tag: blog
+tag: tutorial
 meta: 'SMIL poate fi folosit pentru animații în hărți web, dar e învechit'
 featured-image: "/assets/img/post/smil-si-harta/map-marker-128.png"
 

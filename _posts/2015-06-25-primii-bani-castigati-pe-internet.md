@@ -3,7 +3,7 @@ layout: post
 title: Primii bani câștigați pe internet
 #permalink: /2015/06/primii-bani-castigati-pe-internet/
 categories: Blog
-tag: blog
+tag: cariera
 meta: 'Privind in urma la ce am fost'
 featured-image: "/assets/img/post/primii-bani-castigati/pmc-8.png"
 ---

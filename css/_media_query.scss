@@ -3,10 +3,6 @@
     width: 100%;
     max-width: 900px;
   }
-
-  .controls{
-    display: none;
-  }
   .post-wrap .content p {
     width: 100%;
   }
@@ -16,12 +12,18 @@
   .post-list .display {
     width: 100%;
   }
-  .controls{
-    display: none;
-  }
   .post-wrap .content p {
     width: 100%;
   }
+
+  .controls > h1{
+    width: 50%;
+    }
+
+  .swiper-button-next, .swiper-button-prev{
+    width: 20%;
+  }
+
 }
 
 
@@ -29,6 +31,7 @@
   .post-list .display .post-block .post-excerpt {
     width: 40%;
   }
+
 }
 
 
