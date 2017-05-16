@@ -1,9 +1,12 @@
 // $(".front-post-content p:nth-child(2)").nextAll().hide();
+// $('.front-post-content h3').css( "display", "none" );
 
 $(".read-all-btn").click(function(){
     $(".front-post-content p:nth-child(2)").nextAll().toggle({
       duration: 600
     });
+
+    // $('h3').css( "display", "block" );
 
     $(".read-all-btn").toggleClass("go-right");
 
