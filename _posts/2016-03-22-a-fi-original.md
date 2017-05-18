@@ -5,8 +5,8 @@ title: A fi original
 categories: Blog
 tag: design
 meta: 'Ce faci când trebuie să creezi un produs original?'
-featured-image: "/assets/img/post/cand-facebook-ucide/cfu-cover.png"
-image-size: contain
+featured-image: "/assets/img/post/original/org-2.jpg"
+image-size: cover
 ---
 În timpul liber caut proiecte web unde mă pot implica ba cu o grafică, ba cu o line de cod. Este ceea ce îmi place să fac și este minunat că pot fi plătit pentru asta. Faptul că nu pot rezona mereu cu dorințele clientului nu este o problemă majoră ci doar o provocare în plus.
 
