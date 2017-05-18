@@ -43,7 +43,7 @@ Ce este greșit? Nu doar faptul că textul este scris astfel încât să fie per
 
 Cinci cuvinte nu sunt multe, dar în cazul unei urgențe (cutremur, incendiu) apare panica. Cei ce evacuează clădirea au corpul plin de adrenalină și mintea încețoșată de panică. Pentru fiecare semn vor trebui să se oprească și să citească întreaga frază pentru a ști încotro să se îndreapte.
 
-Un singur astfel de obstacol va cauza busculate și va spori panica.
+Un singur astfel de obstacol va cauza busculade și va spori panica.
 
 Problema asta poate fi reparată ușor înlocuind fraza cu un semn simplu, eficient, recunoscut oriunde și de oricine.
 
