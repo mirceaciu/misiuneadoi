@@ -22,7 +22,7 @@ github_username:  mirceaciu
 
 # Build settings
 markdown: kramdown
-baseurl: /misiunea-web
+baseurl: /misiuneadoi
 repository: mirceaciu/misiuneadoi
 permalink: pretty
 #repository: mirceaciu/misiuneadoi.github.io
